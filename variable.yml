@@ -1,8 +1,9 @@
-
+---
 - hosts: all
   vars:
-   name: batch-26
+    name: batch-26
+
   tasks:
-   - name: Ansible Basic Variable Example
-     debug:
-      msg: "{{ name }}"
+    - name: Ansible Basic Variable Example
+      debug:
+        msg: "{{ name }}"
